@@ -1,0 +1,12 @@
+-
+ name: pb on use case of command module
+ hosts: all
+ tasks:
+  - name: create directory
+    command:
+     cmd: mkdir /opt/hyderabad
+
+  - name: create a file in hyderabad folder
+    command:
+     cmd: touch /opt/hyderabad/india.txt
+     
