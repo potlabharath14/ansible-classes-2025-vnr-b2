@@ -4,7 +4,7 @@
  tasks:
   - name: code to install docker
     yum:
-     name: docker
+     name: docker-ce
      state: present
 
   - name: code to start the services
