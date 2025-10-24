@@ -1,0 +1,14 @@
+-
+ name: pb on use case of file module
+ hosts: all
+ tasks:
+  - name: create folder
+    file:
+     path: /opt/asia
+     state: directory
+
+  - name: create a file
+    file: 
+     path: /opt/asia/newdelhi.txt
+     state: touch
+    
