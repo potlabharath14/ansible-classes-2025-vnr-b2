@@ -1,0 +1,7 @@
+-
+ name: pb on sample execution of pb
+ hosts: all
+ tasks:
+  - name: code to create a directory
+    command:
+     cmd: mkdir /opt/VNR-B2
